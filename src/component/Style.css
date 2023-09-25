@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'popins';
+  overflow: hidden;
+}
+/* nav */
+.bold{
+  font-size: 35px;
+  text-decoration: none;
+}
+li{
+  padding: 10px;
+}
+.nav-link{
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid transparant;
+}
+.nav-link:hover{
+  border-bottom: 5px solid blue;
+  transition: .1s;
+}
+#text{
+  color:black;
+  font-size: 50px;
+  font-weight: bold;
+}
+#main-h1{
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.banner-p{
+  font-size: 22px;
+  margin-left: 20px;
+}
+.git{
+  border: 1px solid rgb(211,209,209);
+  border-radius: 5px;
+  margin-left: 25px;
+  padding: 12px;
+  background-color: aliceblue;
+  
+}
+.git:hover{
+  background-color: rgb(221,220,220);
+
+}
+.figma{
+  border: 1px solid rgb(211,209,209);
+  border-radius: 5px;
+  margin-left: 45px;
+  padding: 12px;
+  background-color: aliceblue;
+}
+.figma:hover{
+  background-color: rgb(221,220,220);
+  color: blue;
+
+}
+.ma{
+  width: 10px;
+}
+.img{
+  width: 530px;
+  height: 400px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+
+}
+#air{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(106, 104, 104);
+}
+#air:hover{
+  color: black;
+
+}

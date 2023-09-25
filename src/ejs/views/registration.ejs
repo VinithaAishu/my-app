@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+<label>username</label>
+ <input type="text" name="uname">
+ <label>email</label>
+ <input type="text" name="email">
+
+
+ <% if(users.length > 0) { %>
+    <h2>User List</h2>
+    <ul>
+        <% users.forEach(user => { %>
+            <li>
+                <strong>Username:</strong> <%= user.username %><br>
+                <strong>Email:</strong> <%= user.email %><br>
+                
+            </li>
+        <% }); %>
+    </ul>
+<% } else { %>
+    <h4>No data</h4>
+<% } %>
+
+    </form>
+</body>
+</html>
